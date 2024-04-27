@@ -1,54 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <div class="grid-container">
-        <header> 
-            <h1>Delicious Bites</h1>  
-        </header>
-        <aside>
-            <div class="menu">
-                <h3>Menú</h3> 
-                <ul>
-                    <li>Entrada</li>
-                    <li>Platos</li>
-                    <li>Bebidas</li>
-                    <li>Postre</li>
-                </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 2 - Layout de e-commerce con Grid</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <!-- header -->
+      <header>
+        <h1>Mi Ecommerce</h1>
+      </header>
+
+      <!-- aside - menú lateral  -->
+      <aside>
+        <h2>Categorias</h2>
+        <nav class="nav">
+          <ul>
+            <li>Perfumes <span class="span">(1)</span></li>
+            <li>Ropa <span class="span">(1)</span></li>
+            <li>Accesorios <span class="span">(1)</span></li>
+            <li>Zapatos <span class="span">(1)</span></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- main -->
+      <main>
+        <div class="galery">
+          <!-- card 1 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto1.png" alt="image" />
             </div>
-           
-        </aside>
-        <main>
-            <div class="galery">
-             <div class="card">
-               <div class="img">aqui va una imagen</div>
-               <h4>Titulo</h4>
-             </div>
-             <div class="card">
-                <div class="img">aqui va una imagen</div>
-                <h4>Titulo</h4>
-              </div>
-              <div class="card">
-                <div class="img">aqui va una imagen</div>
-                <h4>Titulo</h4>
-              </div>
-              <div class="card">
-                <div class="img">aqui va una imagen</div>
-                <h4>Titulo</h4>
-              </div>
-              <div class="card">
-                <div class="img">aqui va una imagen</div>
-                <h4>Titulo</h4>
-              </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
             </div>
-        </main>
-        <footer> Footer </footer>
+          </div>
+
+          <!-- card 2 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto4.jpeg" alt="image" />
+            </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto2.png" alt="image" />
+            </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto2.png" alt="image" />
+            </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
+            </div>
+          </div>
         </div>
-    
-</body>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <h4>@miecommerce</h4>
+      </footer>
+    </div>
+  </body>
 </html>
