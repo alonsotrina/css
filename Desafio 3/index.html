@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 3 - Electric Car Store</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div id="root">
+      <!-- nav - menú lateral  -->
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <span class="material-symbols-outlined navbar-icon">
+            directions_car
+          </span>
+
+          <h2>Electric Cards</h2>
+        </div>
+
+        <div class="nav-enlaces">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#">Oferta</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+
+        <span class="material-symbols-outlined navbar-icon navbar-icon-menu">menu</span>
+      </nav>
+
+      <!-- header -->
+      <header>
+        <div class="filter">
+          <label for="country">Ordenar por:</label>
+          <select id="country" name="country">
+            <option value="precio">Precio</option>
+            <option value="tipo">Tipo</option>
+            <option value="marca">Marca</option>
+          </select>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <div class="galery">
+          <!-- card 1 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto1.png" alt="image" />
+            </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto4.jpeg" alt="image" />
+            </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto2.png" alt="image" />
+            </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div class="card">
+            <div class="images">
+              <img src="assets/img/producto2.png" alt="image" />
+            </div>
+
+            <div class="card-body">
+              <h4>Titulo</h4>
+              <p>$ 10.000</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">&raquo;</a>
+        </div>
+
+        <!-- <div class="hola">
+          <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+        </div> -->
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <div class="footer-nav">
+          <a href="#"><span class="material-symbols-outlined"> family_star </span></a>
+          <a href="#"><span class="material-symbols-outlined"> family_star </span></a>
+        </div>
+
+        <h4>@todos los derechos reservados</h4>
+      </footer>
+    </div>
+  </body>
+</html>
